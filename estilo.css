@@ -1,0 +1,29 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Century Georgia, 'Times New Roman', Times, serif;
+
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.home{
+display:flex;
+flex-wrap: wrap;
+}
+.in-flex {
+     flex:1;
+     padding: 25px;
+     min-width: 250px;
+     margin-bottom: 0px;
+ }
+
+.in-flex:first-child{
+    flex:2;
+    padding: 25px;
+    background-color: beige;
+    margin: 20px;
+
+}
